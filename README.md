@@ -6,17 +6,43 @@
 
 <br>
 
+<p>
+  <a href="https://github.com/nisonya/kvant-server">
+    <img src="https://img.shields.io/badge/Сервер-репозиторий-2ea44f?style=for-the-badge" alt="Сервер" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/nisonya/kvant-desktop">
+    <img src="https://img.shields.io/badge/Компьютерная%20версия-репозиторий-0969da?style=for-the-badge" alt="Компьютерная версия" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/nisonya/kvant-mobile">
+    <img src="https://img.shields.io/badge/Мобильная-репозиторий-8250df?style=for-the-badge" alt="Мобильная" />
+  </a>
+</p>
+
+<br>
+
 </div>
+
+---
+
+## Компоненты
+
+| | **Kvant Server** | **Kvant Desktop** | **Kvant Mobile** |
+| :--- | :--- | :--- | :--- |
+| **Назначение** | База данных, HTTPS, API, JWT — ядро на вашей инфраструктуре | Клиент для ПК: повседневная работа через привычный интерфейс | Те же сценарии на смартфоне, общее API с десктопом |
+| **Для кого** | Администратор, который разворачивает систему | Администраторы, сотрудники, преподаватели, координаторы | Сотрудники и администраторы вне рабочего места |
+| **Старт** | MySQL → установщик из Releases → `DATABASE_CONN`, `API_PORT` → проброс порта при необходимости | Releases → установить → указать **URL API** → войти | Releases → установить → тот же **адрес API** → авторизация |
+
+Подробные инструкции по установке, сборке и troubleshooting — в README соответствующего репозитория (кнопки выше).
 
 ---
 
 
 <p align="center">
-  <img src="images/img1.png" alt="Kvant — скриншот интерфейса" width="720" />
-</p>
-
-<p align="center">
-  <img src="images/img2.png" alt="Kvant — приложение" width="720" />
+  <img src="images/img1.png" alt="Kvant — скриншот интерфейса" height="320" />
+  &nbsp;&nbsp;
+  <img src="images/img2.png" alt="Kvant — приложение" height="320" />
 </p>
 
 ---
@@ -77,30 +103,10 @@
 
 ---
 
-## Из чего состоит проект
-
-| Репозиторий | Описание |
-| :--- | :--- |
-| **`kvant`** | Главный репозиторий, обзор экосистемы: описание, ссылки, дорожная карта;  |
-| **`kvant-server`** | код приложения сервера: база данных и серверная часть с программным интерфейсом. |
-| **`kvant-desktop`** | код десктопного приложения для работы с сервером. С ДОКУМЕНТАЦИЕЙ API. Все ключи безопасности генерятся автоматически при установках|
-| **`kvant-mobile`** | код мобильного приложения к тому же серверу. |
-
-**Ссылки на репозитории:**
-
-| | |
-| :--- | :--- |
-| главный: | https://github.com/nisonya/kvant |
-| сервер: | https://github.com/nisonya/kvant-server |
-| десктоп: | https://github.com/nisonya/kvant-desktop |
-| мобильный: | https://github.com/nisonya/kvant-mobile |
-
----
-
 ## Быстрый старт
 
 | № | Шаг |
 | :---: | :--- |
-| 1 | **Сервер:** папка `kvant-server` → прочтите инструкцию по установке → скачайте установщик → убедитесь, что подняли БД  →  установите приложение  → пробросте порт для глобального доступа. |
-| 2 | **Компьютерное приложение:** папка `kvant-desktop` → установить → указать адрес API → войти. |
-| 3 | **Мобильное приложение:** папка `kvant-mobile` → установить → тот же адрес API. |
+| 1 | **[Сервер](https://github.com/nisonya/kvant-server)** — README и Releases → установщик → MySQL и настройки → проброс порта при необходимости. |
+| 2 | **[Компьютерная версия](https://github.com/nisonya/kvant-desktop)** — Releases → установить → указать URL API → войти. |
+| 3 | **[Мобильная](https://github.com/nisonya/kvant-mobile)** — Releases → установить → тот же адрес API. |
