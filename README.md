@@ -22,6 +22,23 @@
 
 <br>
 
+<table>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/Ведение-посещаемости-2ea44f?style=for-the-badge" alt="Ведение посещаемости" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Составление-отчётов-0969da?style=for-the-badge" alt="Составление отчётов" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Планирование-мероприятий-8250df?style=for-the-badge" alt="Планирование мероприятий" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Управление-сотрудниками-f97316?style=for-the-badge" alt="Управление сотрудниками" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/Учёт-учеников-d1242f?style=for-the-badge" alt="Учёт учеников" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Ведение-групп-1f883d?style=for-the-badge" alt="Ведение групп" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Формирование-расписания-6f42c1?style=for-the-badge" alt="Формирование расписания" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Бронирование-помещений-0a7ea4?style=for-the-badge" alt="Бронирование помещений" /></td>
+  </tr>
+</table>
+
+<br>
+
 </div>
 
 ---
