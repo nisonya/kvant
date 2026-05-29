@@ -22,18 +22,20 @@
 
 <br>
 
+### Основной функционал
+
 <table>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/Ведение-посещаемости-2ea44f?style=for-the-badge" alt="Ведение посещаемости" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Составление-отчётов-0969da?style=for-the-badge" alt="Составление отчётов" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Планирование-мероприятий-8250df?style=for-the-badge" alt="Планирование мероприятий" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Управление-сотрудниками-f97316?style=for-the-badge" alt="Управление сотрудниками" /></td>
+    <td align="center" bgcolor="#eafaf1"><strong>Ведение посещаемости</strong></td>
+    <td align="center" bgcolor="#eef6ff"><strong>Составление отчётов</strong></td>
+    <td align="center" bgcolor="#f5f0ff"><strong>Планирование мероприятий</strong></td>
+    <td align="center" bgcolor="#fff4e8"><strong>Управление сотрудниками</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/Учёт-учеников-d1242f?style=for-the-badge" alt="Учёт учеников" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Ведение-групп-1f883d?style=for-the-badge" alt="Ведение групп" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Формирование-расписания-6f42c1?style=for-the-badge" alt="Формирование расписания" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Бронирование-помещений-0a7ea4?style=for-the-badge" alt="Бронирование помещений" /></td>
+    <td align="center" bgcolor="#fff0f3"><strong>Учёт учеников</strong></td>
+    <td align="center" bgcolor="#edf9f0"><strong>Ведение групп</strong></td>
+    <td align="center" bgcolor="#f4f0ff"><strong>Формирование расписания</strong></td>
+    <td align="center" bgcolor="#eaf8fb"><strong>Бронирование помещений</strong></td>
   </tr>
 </table>
 
@@ -42,17 +44,6 @@
 </div>
 
 ---
-
-## Компоненты
-
-| | **Kvant Server** | **Kvant Desktop** | **Kvant Mobile** |
-| :--- | :--- | :--- | :--- |
-| **Назначение** | База данных, HTTPS, API, JWT — ядро на вашей инфраструктуре | Клиент для ПК: повседневная работа через привычный интерфейс | Те же сценарии на смартфоне, общее API с десктопом |
-| **Для кого** | Администратор, который разворачивает систему | Администраторы, сотрудники, преподаватели, координаторы | Сотрудники и администраторы вне рабочего места |
-| **Старт** | MySQL → установщик из Releases → `DATABASE_CONN`, `API_PORT` → проброс порта при необходимости | Releases → установить → указать **URL API** → войти | Releases → установить → тот же **адрес API** → авторизация |
-
-Подробные инструкции по установке, сборке и troubleshooting — в README соответствующего репозитория (кнопки выше).
-
 ---
 
 
@@ -63,6 +54,7 @@
 </p>
 
 ---
+
 
 ## Кому подойдёт
 
@@ -127,3 +119,15 @@
 | 1 | **[Сервер](https://github.com/nisonya/kvant-server)** — README и Releases → установщик → MySQL и настройки → проброс порта при необходимости. |
 | 2 | **[Компьютерная версия](https://github.com/nisonya/kvant-desktop)** — Releases → установить → указать URL API → войти. |
 | 3 | **[Мобильная](https://github.com/nisonya/kvant-mobile)** — Releases → установить → тот же адрес API. |
+
+## Компоненты
+
+| | **Kvant Server** | **Kvant Desktop** | **Kvant Mobile** |
+| :--- | :--- | :--- | :--- |
+| **Назначение** | База данных, HTTPS, API, JWT — ядро на вашей инфраструктуре | Клиент для ПК: повседневная работа через привычный интерфейс | Те же сценарии на смартфоне, общее API с десктопом |
+| **Для кого** | Администратор, который разворачивает систему | Администраторы, сотрудники, преподаватели, координаторы | Сотрудники и администраторы вне рабочего места |
+| **Старт** | MySQL → установщик из Releases → `DATABASE_CONN`, `API_PORT` → проброс порта при необходимости | Releases → установить → указать **URL API** → войти | Releases → установить → тот же **адрес API** → авторизация |
+
+Подробные инструкции по установке, сборке и troubleshooting — в README соответствующего репозитория (кнопки выше).
+
+
